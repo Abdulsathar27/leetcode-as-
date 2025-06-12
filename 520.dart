@@ -16,3 +16,12 @@ void main() {
   print(solution.detectCapitalUse("Google"));   
   print(solution.detectCapitalUse("FlaG"));     
 }
+
+
+
+// This Dart code defines a Solution class with a method detectCapitalUse that checks if a given word adheres to specific capitalization rules.
+// The method iterates through the word starting from the second character (index 1). 
+// It uses a boolean comparison to check if the capitalization of the current character matches the capitalization of the second character (word[1]). 
+// Additionally, it checks if the first character is lowercase (word[0]) while any subsequent character is uppercase, which would also violate the rules.
+//  If any of these conditions are met, indicating an invalid capitalization pattern, 
+//  the method immediately returns false; otherwise, if the loop completes without finding any violations, it returns true.
