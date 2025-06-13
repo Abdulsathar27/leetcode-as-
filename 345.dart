@@ -13,7 +13,8 @@ class Solution {
         r--;
       }
 
-      // Swap only if both are vowels
+
+
       if (l < r) {
         String temp = chars[l];
         chars[l] = chars[r];
@@ -32,7 +33,7 @@ void main() {
   var solution = Solution();
   String input = "leetcode";
   String result = solution.reverseVowels(input);
-  print(result); // Output: leotcede
+  print(result); 
 }
 
 
