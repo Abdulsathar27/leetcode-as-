@@ -3,10 +3,9 @@ import 'dart:math';
 class Solution {
   List<String> commonChars(List<String> words) {
     List<String> answer = [];
-    List<int> commonCount = List.filled(26, 1 << 31); // like INT_MAX
-
+    List<int> commonCount = List.filled(26, 1 << 31); 
     for (String word in words) {
-      List<int> count = List.filled(26, 0); // Frequency count for this word
+      List<int> count = List.filled(26, 0); 
 
       for (int i = 0; i < word.length; i++) {
         int index = word.codeUnitAt(i) - 'a'.codeUnitAt(0);
