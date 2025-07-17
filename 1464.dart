@@ -17,11 +17,12 @@ class Solution {
     return (max1 - 1) * (max2 - 1);
   }
 }
+
 void main() {
   var sol = Solution();
   print(sol.maxProduct([3, 4, 5, 2]));
-  print(sol.maxProduct([1]));         
-  print(sol.maxProduct([]));          
+  print(sol.maxProduct([1]));
+  print(sol.maxProduct([]));
 }
 // This Dart code calculates the maximum product of (num1 - 1) * (num2 - 1) 
 // where num1 and num2 are the two largest distinct numbers in the input list nums. 
