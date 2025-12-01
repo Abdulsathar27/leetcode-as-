@@ -20,9 +20,9 @@ class Solution {
 
 void main() {
   Solution s = Solution();
-  print(s.containsNearbyDuplicate([1, 2, 3, 1], 3)); // true
-  print(s.containsNearbyDuplicate([1, 0, 1, 1], 1)); // true
-  print(s.containsNearbyDuplicate([1, 2, 3, 1], 2)); // false
+  print(s.containsNearbyDuplicate([1, 2, 3, 1], 3)); 
+  print(s.containsNearbyDuplicate([1, 0, 1, 1], 1)); 
+  print(s.containsNearbyDuplicate([1, 2, 3, 1], 2)); 
 }
 
 // This Dart program checks whether a list contains any duplicate numbers such that the two duplicates are within k indices of each other.
