@@ -1,4 +1,3 @@
-import 'dart:math';
 
 class Solution {
   int differenceOfSum(List<int> nums) {

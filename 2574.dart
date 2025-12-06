@@ -1,5 +1,3 @@
-import 'dart:math';
-
 class Solution {
   List<int> leftRightDifference(List<int> nums) {
     int n = nums.length;
