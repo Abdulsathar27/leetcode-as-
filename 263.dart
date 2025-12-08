@@ -14,9 +14,9 @@ class Solution {
 
 void main() {
   Solution s = Solution();
-  print(s.isUgly(6));   // true
-  print(s.isUgly(8));   // true
-  print(s.isUgly(14));  // false
+  print(s.isUgly(6));   
+  print(s.isUgly(8));   
+  print(s.isUgly(14));  
 }
 
 
