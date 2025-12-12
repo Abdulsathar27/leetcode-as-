@@ -1,20 +1,16 @@
 class Solution {
   String toHex(int num) {
     if (num == 0) return "0";
-
     const hex = [
       '0','1','2','3','4','5','6','7',
       '8','9','a','b','c','d','e','f'
     ];
-
     String ans = "";
     int n = num & 0xffffffff;  
-
     while (n != 0) {
       ans += hex[n & 0xf];
       n >>= 4;
     }
-
     return ans.split('').reversed.join();
   }
 }
