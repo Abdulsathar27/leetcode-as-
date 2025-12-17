@@ -16,8 +16,8 @@ class Solution {
 
 void main() {
   Solution sol = Solution();
-  print(sol.isSubsequence("abc", "ahbgdc")); // true
-  print(sol.isSubsequence("axc", "ahbgdc")); // false
+  print(sol.isSubsequence("abc", "ahbgdc")); 
+  print(sol.isSubsequence("axc", "ahbgdc")); 
 }
 
 // This Dart program checks whether one string is a subsequence of another by preserving character 
