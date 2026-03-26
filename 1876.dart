@@ -19,7 +19,6 @@ class Solution {
 }
 void main() {
   Solution sol = Solution();
-
   print(sol.countGoodSubstrings("xyzzaz"));   
   print(sol.countGoodSubstrings("aababcabc")); 
 }
