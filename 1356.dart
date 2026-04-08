@@ -5,9 +5,9 @@ class Solution {
       int bitB = countBits(b);
 
       if (bitA == bitB) {
-        return a.compareTo(b); // smaller number first
+        return a.compareTo(b);
       }
-      return bitA.compareTo(bitB); // fewer bits first
+      return bitA.compareTo(bitB); 
     });
 
     return arr;
@@ -17,8 +17,8 @@ class Solution {
     int count = 0;
 
     while (n > 0) {
-      count += n & 1; // check last bit
-      n >>= 1; // right shift
+      count += n & 1; 
+      n >>= 1; 
     }
 
     return count;
@@ -26,7 +26,6 @@ class Solution {
 }
 void main() {
   Solution sol = Solution();
-
   print(sol.sortByBits([0,1,2,3,4,5,6,7,8]));
-  // Output: [0,1,2,4,8,3,5,6,7]
+ 
 }
