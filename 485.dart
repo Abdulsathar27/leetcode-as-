@@ -21,6 +21,6 @@ class Solution {
 void main() {
   Solution sol = Solution();
 
-  print(sol.findMaxConsecutiveOnes([1,1,0,1,1,1])); // 3
-  print(sol.findMaxConsecutiveOnes([1,0,1,1,0,1])); // 2
+  print(sol.findMaxConsecutiveOnes([1,1,0,1,1,1])); 
+  print(sol.findMaxConsecutiveOnes([1,0,1,1,0,1])); 
 }
