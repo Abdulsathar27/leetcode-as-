@@ -1,20 +1,20 @@
-double medianOf2(List<int> a, List<int> b) {
+double findMedianOf2(List<int> nums1, List<int> nums2) {
   // Merge both arrays
-  List<int> c = [...a, ...b];
+  List<int> nums3 = [...nums1, ...nums2];
 
   // Sort the concatenated array
-  c.sort();
+  nums3.sort();
 
-  int lenC = c.length;
+  int lennums3 = nums3.length;
 
   // If length of array is even
-  if (lenC % 2 == 0) {
-    return (c[lenC ~/ 2] + c[lenC ~/ 2 - 1]) / 2.0;
+  if (lennums3 % 2 == 0) {
+    return (nums3[lennums3 ~/ 2] + nums3[lennums3 ~/ 2 - 1]) / 2.0;
   }
 
   // If length of array is odd
   else {
-    return c[lenC ~/ 2].toDouble();
+    return nums3[lennums3 ~/ 2].toDouble();
   }
 }
 
@@ -22,5 +22,5 @@ void main() {
   List<int> a = [-5, 3, 6, 12, 15];
   List<int> b = [-12, -10, -6, -3, 4, 10];
 
-  print(medianOf2(a, b));
+  print(findMedianOf2(a, b));
 }
